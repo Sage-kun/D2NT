@@ -51,19 +51,19 @@
 [Name] == GrandCharm && [Quality] == Magic # [MaxHP] >= 40 && [Mana] >= 35
 
 //RESIST LC
-[Name] == LargeCharm && [Quality] == Magic # [ColdResist]+[FireResist]+[LightResist]+[PoisonResist] >= 28 && [MaxHP] >= 25
-[Name] == LargeCharm && [Quality] == Magic # [ColdResist]+[FireResist]+[LightResist]+[PoisonResist] >= 24 && ([MaxHP] >= 15 || [FHR] >= 8)
+//[Name] == LargeCharm && [Quality] == Magic # [ColdResist]+[FireResist]+[LightResist]+[PoisonResist] >= 28 && [MaxHP] >= 25
+//[Name] == LargeCharm && [Quality] == Magic # [ColdResist]+[FireResist]+[LightResist]+[PoisonResist] >= 24 && ([MaxHP] >= 15 || [FHR] >= 8)
 
 //MAX DAMAGE LC
-[Name] == LargeCharm && [Quality] == Magic # [MAXDamage] >= 6 && [ToHit] >= 21 && [MaxHP] >= 26
-[Name] == LargeCharm && [Quality] == Magic # [MAXDamage] >= 6 && [ToHit] >= 40 && [FHR] >= 8
-[Name] == LargeCharm && [Quality] == Magic # [MAXDamage] >= 6 && [ToHit] >= 40 && [FRW] >= 5
+//[Name] == LargeCharm && [Quality] == Magic # [MAXDamage] >= 6 && [ToHit] >= 21 && [MaxHP] >= 26
+//[Name] == LargeCharm && [Quality] == Magic # [MAXDamage] >= 6 && [ToHit] >= 40 && [FHR] >= 8
+//[Name] == LargeCharm && [Quality] == Magic # [MAXDamage] >= 6 && [ToHit] >= 40 && [FRW] >= 5
 
 //AR/LIFE LC
-[Name] == LargeCharm && [Quality] == Magic # [ToHit] >= 75 && [MaxHP] >= 33
+//[Name] == LargeCharm && [Quality] == Magic # [ToHit] >= 75 && [MaxHP] >= 33
 
 //LIFE/MANA LC
-[Name] == LargeCharm && [Quality] == Magic # [MaxHP] >= 30 && [Mana] >= 30
+//[Name] == LargeCharm && [Quality] == Magic # [MaxHP] >= 30 && [Mana] >= 30
 
 //LIFE SC
 [Name] == SmallCharm && [Quality] == Magic # [MaxHP] >= 20

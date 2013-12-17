@@ -35,17 +35,17 @@
 //[Type] == javelin && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
 
 // ##### Rare Weapons #######################
-[Type] == axe && [Quality] >= rare # [EnhancedDamage] >= 390
-[Type] == bow && [Quality] >= rare # [EnhancedDamage] >= 390
-[Type] == crossbow && [Quality] >= rare # [EnhancedDamage] >= 390
-[Type] == mace && [Quality] >= rare # [EnhancedDamage] >= 390
-[Type] == polearm && [Quality] >= rare # [EnhancedDamage] >= 390
-[Type] == scepter && [Quality] >= rare # [EnhancedDamage] >= 390
-[Type] == spear && [Quality] >= rare # [EnhancedDamage] >= 390
-[Type] == sword && [Quality] >= rare # [EnhancedDamage] >= 390
-[Type] == throwingknife && [Quality] >= rare # [EnhancedDamage] >= 390
-[Type] == throwingaxe && [Quality] >= rare # [EnhancedDamage] >= 390
-[Type] == javelin && [Quality] >= rare # [EnhancedDamage] >= 390
+[Type] == axe && [Quality] == rare # [EnhancedDamage] >= 390
+[Type] == bow && [Quality] == rare # [EnhancedDamage] >= 390
+[Type] == crossbow && [Quality] == rare # [EnhancedDamage] >= 390
+[Type] == mace && [Quality] == rare # [EnhancedDamage] >= 390
+[Type] == polearm && [Quality] == rare # [EnhancedDamage] >= 390
+[Type] == scepter && [Quality] == rare # [EnhancedDamage] >= 390
+[Type] == spear && [Quality] == rare # [EnhancedDamage] >= 390
+[Type] == sword && [Quality] == rare # [EnhancedDamage] >= 390
+[Type] == throwingknife && [Quality] == rare # [EnhancedDamage] >= 390
+[Type] == throwingaxe && [Quality] == rare # [EnhancedDamage] >= 390
+[Type] == javelin && [Quality] == rare # [EnhancedDamage] >= 390
 
 
 
