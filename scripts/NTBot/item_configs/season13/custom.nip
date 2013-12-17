@@ -22,17 +22,17 @@
 
 
 // ##### Magic Weapons #######################
-[Type] == axe && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
-[Type] == bow && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
-[Type] == crossbow && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
-[Type] == mace && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
-[Type] == polearm && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
-[Type] == scepter && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
-[Type] == spear && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
-[Type] == sword && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
-[Type] == throwingknife && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
-[Type] == throwingaxe && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
-[Type] == javelin && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+//[Type] == axe && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+//[Type] == bow && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+//[Type] == crossbow && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+//[Type] == mace && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+//[Type] == polearm && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+//[Type] == scepter && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+//[Type] == spear && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+//[Type] == sword && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+//[Type] == throwingknife && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+//[Type] == throwingaxe && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+//[Type] == javelin && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
 
 // ##### Rare Weapons #######################
 [Type] == axe && [Quality] >= rare # [EnhancedDamage] >= 390
