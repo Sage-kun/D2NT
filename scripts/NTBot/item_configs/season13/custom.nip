@@ -1,0 +1,124 @@
+// ##### Shields #######################
+[Type] == shield && [Quality] >= magic # [Sockets] == 4 && ([itemreqpercent] >= 20 || [itemfasterblockrate] >= 30)
+
+// ##### Rare Gloves ########################
+//[Type] == gloves && [Quality] >= rare # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 61
+[Type] == gloves && [Quality] >= rare # [FireResist] >= 30 && ([ColdResist] >= 30 || [LightResist] >= 30 || [PoisonResist] >= 30)
+//[Type] == gloves && [Quality] >= rare # [LightResist]+[ColdResist]+[PoisonResist] >= 30 && [ItemMagicBonus] >= 25
+//[Type] == gloves && [Quality] >= rare # [ItemMagicBonus] >= 25 && ([Strength] >= 15 || [Dexterity] >= 15)
+[Type] == gloves && [Quality] == rare && [Flag] != ethereal # [IAS] >= 20 && [ItemAddSkillTab] >= 2 && ([Strength] >= 15 || [Dexterity] >= 15)
+
+// ##### Rare Boots #########################
+[Type] == boots && [Quality] >= rare # [FRW] >= 30 && [FireResist]+[LightResist]+[ColdResist] >= 75
+[Type] == boots && [Quality] >= rare # [FRW] >= 30 && ([ItemMagicBonus] >= 25 && [Dexterity] >= 9)
+[Type] == boots && [Quality] >= rare # [FRW] >= 30 && ([ColdResist] >= 40 || [FireResist] >= 40 || [LightResist] >= 40)
+
+
+// ##### Belts #########################
+//[Type] == belt && [Quality] >= rare # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60
+[Type] == belt && [Quality] >= rare # ([FireResist] >= 30 || [LightResist] >= 30 || [ColdResist] >= 30 || [PoisonResist] >= 30) && ([FHR] >= 24 || [Strength] >= 30 || [MaxHP] >= 60)
+[Type] == belt && [Quality] >= magic # [FHR] >= 24 && ([Strength] >= 30 || [MaxHP] >= 60)
+//[Type] == belt && [Quality] >= magic # [Strength] >= 30
+
+
+// ##### Magic Weapons #######################
+[Type] == axe && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+[Type] == bow && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+[Type] == crossbow && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+[Type] == mace && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+[Type] == polearm && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+[Type] == scepter && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+[Type] == spear && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+[Type] == sword && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+[Type] == throwingknife && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+[Type] == throwingaxe && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+[Type] == javelin && [Quality] == magic && [Class] == elite # [EnhancedDamage] >= 300
+
+// ##### Rare Weapons #######################
+[Type] == axe && [Quality] >= rare # [EnhancedDamage] >= 390
+[Type] == bow && [Quality] >= rare # [EnhancedDamage] >= 390
+[Type] == crossbow && [Quality] >= rare # [EnhancedDamage] >= 390
+[Type] == mace && [Quality] >= rare # [EnhancedDamage] >= 390
+[Type] == polearm && [Quality] >= rare # [EnhancedDamage] >= 390
+[Type] == scepter && [Quality] >= rare # [EnhancedDamage] >= 390
+[Type] == spear && [Quality] >= rare # [EnhancedDamage] >= 390
+[Type] == sword && [Quality] >= rare # [EnhancedDamage] >= 390
+[Type] == throwingknife && [Quality] >= rare # [EnhancedDamage] >= 390
+[Type] == throwingaxe && [Quality] >= rare # [EnhancedDamage] >= 390
+[Type] == javelin && [Quality] >= rare # [EnhancedDamage] >= 390
+
+
+
+// ##### Rings #########################
+[Type] == ring && [Quality] >= rare # [FCR] == 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 44
+[Type] == ring && [Quality] >= rare # [FCR] == 10 && [FireResist] >= 11 && [LightResist] >= 11 && [ColdResist] >= 11 && [PoisonResist] >= 11
+//[Type] == ring && [Quality] >= magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 30 && [ItemMagicBonus] >= 15
+[Type] == ring && [Quality] >= magic # [ItemMagicBonus] >= 31
+[Type] == ring && [Quality] >= magic # [FCR] == 10 && ([MaxMana] >= 61 || [MaxHP] >= 31 || [Energy] >= 15 || [Strength] >= 20 || [Dexterity] >= 15 || [ItemMagicBonus] >= 5 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 44)
+
+
+
+// ##### Amulets #######################
+//[Type] == amulet && [Quality] >= magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 80 // prismatic amulet
+[Type] == amulet && [Quality] >= magic # ([ItemAddClassSkills] >= 2 || [ItemAddSkillTab] >= 3) && ([ItemMagicBonus] >= 25 || [FCR] == 10 || [Strength] >= 20 || [Dexterity] >= 20)
+[Type] == amulet && [Quality] >= magic # [ItemMagicBonus] >= 36
+
+// ##### Small Charms ##################
+[Name] == SmallCharm && [Quality] == magic # [FireResist] >= 3 && [LightResist] >= 3
+[Name] == SmallCharm && [Quality] == magic # [FireResist] >= 11
+[Name] == SmallCharm && [Quality] == magic # [LightResist] >= 11
+[Name] == SmallCharm && [Quality] == magic # [ColdResist] >= 11
+[Name] == SmallCharm && [Quality] == magic # [PoisonResist] >= 11
+[Name] == SmallCharm && [Quality] == magic # [MaxHP] >= 20
+[Name] == SmallCharm && [Quality] == magic # [MaxMana] >=17
+[Name] == SmallCharm && [Quality] == magic # [PlusDefense] >= 30
+[Name] == SmallCharm && [Quality] == magic # [MaxDamage] >= 3 && [ToHit] >= 20
+[Name] == SmallCharm && [Quality] == magic # [poisonmaxdam] >= 100
+[Name] == SmallCharm && [Quality] == magic # [poisonmindam] >= 100
+[Name] == SmallCharm && [Quality] == magic # [ItemMagicBonus] >= 7
+//[Name] == SmallCharm && [Quality] == magic # [FRW] >= 3
+//[Name] == SmallCharm && [Quality] == magic # [FHR] >= 5
+[Name] == SmallCharm && [Quality] == magic # [PoisonMaxDam]/10.2 >= 22
+
+// ##### Grand Charms ##################
+[Name] == GrandCharm && [Quality] == magic # [ItemAddSkillTab] >= 1
+[Name] == GrandCharm && [Quality] == magic # [FireResist] >= 3 && [LightResist] >= 3
+[Name] == GrandCharm && [Quality] == magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 30 
+
+[Name] == GrandCharm && [Quality] == magic && [Flag] != identified && [Level] == 99 // Baal GC
+[Name] == GrandCharm && [Quality] == magic && [Flag] != identified && [Level] == 95 // Nihla GC
+[Name] == GrandCharm && [Quality] == magic && [Flag] != identified && [Level] == 94 // Diablo GC
+[Name] == GrandCharm && [Quality] == magic && [Flag] != identified && [Level] == 91
+
+//===========================================================================================================
+// List of Mods
+//===========================================================================================================
+
+//[FireResist]
+//[LightResist]
+//[ColdResist]
+//[PoisonResist]
+//[ItemMagicBonus]
+//[Dexterity]
+//[Strength]
+//[Energy]
+//[IAS]
+//[MaxMana]
+//[FRW]
+//[FHR]
+//[MaxHP]
+//[FCR]
+//[ItemAddClassSkills]
+//[ItemAddSkillTab]
+//[Sockets]
+//[EnhancedDefense]
+//[ToHit]
+//[ItemAbsorbLightPercent]
+//[LifeLeech]
+//[ManaLeech]
+//[ItemMaxManaPercent]
+//[Defense]
+
+//[SkillSkeletonMastery]
+
+
