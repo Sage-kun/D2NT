@@ -1,5 +1,5 @@
 // ##### Shields #######################
-[Type] == shield && [Quality] >= magic # [Sockets] == 4 && ([itemreqpercent] >= 20 || [itemfasterblockrate] >= 30)
+[Type] == shield && [Quality] == magic # [Sockets] == 4 && ([itemreqpercent] >= 20 || [itemfasterblockrate] >= 30)
 
 // ##### Rare Gloves ########################
 //[Type] == gloves && [Quality] >= rare # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 61

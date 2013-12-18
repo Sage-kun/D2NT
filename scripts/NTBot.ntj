@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////
 //        characters in your game setting: 		 //		
 ///////////////////////////////////////////////////
-var characterdiff        =  "99"; 	//use this to keep those pesky spam bots out of the f'ing game
+var characterdiff        =  "40"; 	//use this to keep those pesky spam bots out of the f'ing game
 									//note you must manually hit the check box the first time for this to work
 var maxNumberOfPlayersss = "8";		//use this to set the maximum number of players allowed in your game
 
