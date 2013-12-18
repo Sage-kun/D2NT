@@ -1,0 +1,20 @@
+/* Instructions:
+* "you can comment out any of the line you don't like by putting "//" in front of them
+* you can also add as many line you want just make sure that the line has " and " at the beginning and end and also a "," after the last "
+*/
+
+var etalSpam = [
+"Because you have a life.",
+"once you pop the fun dont stop!",
+"Because you could be this awesome too.",
+"We bot so you can sleep",
+"ETAL stands for Evolutionary Tactical Automated Lazyass",
+"Why pay real money for items/lvl service, when you can bot for free Etal.com",
+"Botters gonna bot!",
+"We know where Carmen Sandiego is.",
+"never gets tired!",
+"Because I can SLEEP and find godlies.",
+"I'm sorry, I was finding good stuff while asleep. Did you say something?",
+"I'm not a bot... I'm a SUPER bot!",
+"Three men are in a boat with four cigarettes and no matches. How do they manage to smoke?"
+];

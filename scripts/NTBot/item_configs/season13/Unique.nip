@@ -178,7 +178,8 @@
 [Name] == GildedShield && [Quality] == Unique && [Flag] == Ethereal																																				//Ethereal HERALD OF ZAKARUM
 
 //UNIQUE SORCERESS
-//[Name] == SwirlingCrystal && [Quality] == Unique && [Flag] == Ethereal																										//Ethereal THE OCULUS
+[Name] == SwirlingCrystal && [Quality] == Unique && [Flag] != Ethereal //normal THE OCULUS
+[Name] == SwirlingCrystal && [Quality] == Unique && [Flag] == Ethereal																										//Ethereal THE OCULUS
 [Name] == EldritchOrb && [Quality] == Unique # [SorceressSkills] >= 3 && [Energy] >= 20 && ([PassiveFireMastery] >= 20 || [PassiveLtngMastery] >= 20)						//ESCHUTA'S TEMPER
 [Name] == EldritchOrb && [Quality] == Unique # [SorceressSkills] >= 3 && (([Energy] >= 25 && [PassiveFireMastery] >= 20) || ([Energy] >= 25 && [PassiveLtngMastery] >= 20))	//ESCHUTA'S TEMPER
 [Name] == DimensionalShard && [Quality] == Unique # [PassiveColdMastery] >= 20																								//DEATH'S FATHOM
